@@ -12,7 +12,7 @@
         public override BaseComment Clone()
         {
             System.Console.WriteLine(this.Text);
-
+            //teste;
             return this.MemberwiseClone() as BaseComment;
         }
     }
